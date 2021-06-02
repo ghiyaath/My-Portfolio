@@ -1,0 +1,670 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/GhiyaathWilliams2-removebg.png), rgb(0, 0, 0);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-name {
+    /* animation: type 4s steps(22); */
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: white;
+    animation: type 4s steps(22);
+    overflow: hidden;
+    width: 42ch;
+    font-size: 50px;
+    color:silver;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ABOUT SECTION */
+.about-section {
+    color: white;
+    padding: 5%;
+    height: 100vh;
+    background: black;
+}
+
+.text{
+    width: 100vw;
+    text-align: center;
+}
+
+.section-h1 {
+    margin-top: 14px;
+    font-size: 15px;
+    font-weight: bolder;
+    justify-self: center;
+    align-self: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #9f9f9f;
+}
+
+.section-sub {
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
+}
+
+.About-img {
+    border: solid 1px #dee2e6;
+    width: 48%;
+    height: 71vh;
+    transition: 3s;
+    margin-right: 50px;
+}
+
+.About-page-head {
+    color: #009e66;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.who-am-I-content {
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    visibility: visible;
+    font-weight: 400;
+    color: #9f9f9f;
+}
+
+.about-content .skills ul {
+    flex-wrap: wrap;
+}
+
+.about-content .skills ul li {
+    padding-right: 50px;
+}
+
+.about-content .skills ul li i {
+    font-size: 70px;
+}
+.section-heading{
+    display: flex;
+    flex-direction: row;
+}
+
+.who-am-I-sub-head {
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.passion-head {
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+}
+
+.passion-content {
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+.skills {
+    margin-top: 60px;
+    color: #009e66;
+}
+
+.skills ul {
+    display: flex;
+    align-items: center;
+}
+
+.skills li {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.skills li i {
+    padding-right: 10px;
+    font-size: 55px;
+}
+
+.skills li h3 {
+
+}
+
+/* RESUME SECTION */
+.resume-section{
+    padding: 5%;
+    height: 100vh;
+    background: black
+}
+.edu-heading {
+    color: #009e66;
+    font-size: 18px;
+}
+
+.resume{
+    font-size: 20px;
+    color: white;
+    gap: 30px;
+}
+
+
+.space{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.experience h1 {
+    font-size: 80px;
+}
+.experience-cards h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.experience-cards{
+    width: 48%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.experience-card {
+    padding: 10px;
+    /* margin-bottom: 15px; */
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    /* border-radius: 10px; */
+    /* border-bottom: aqua; */
+    border-width: 10px;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    /* border: 1px solid rgba( 255, 255, 255, .5 ); */
+    /* border-bottom: aliceblue; */
+}
+
+
+
+/* 
+.bar {
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #0084ffb3;
+}
+.bar span {
+    height: 2px;
+    float: left;
+    background: #0084ffb3;
+}
+.html {
+    width: 90%;
+    animation: html 2s;
+}
+.css{
+    width: 65%;
+    animation: css 2s;
+}
+.javascript {
+    width: 45%;
+    animation: javascript 2s;
+} */
+
+
+/* PORTFOLIO */
+#portfolio{
+    /* height: 100vh; */
+    color: rgb(250, 248, 248);
+
+}
+
+.card-heading {
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.card-subtitle {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+
+.portfolio h6{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9f9f9f;
+    background: black;
+    font-weight: 400;
+}
+
+.portfolio h1{
+    font-size: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: black;
+    font-weight: 700;
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  min-width: 80%;
+  padding: 5% 10%;
+  flex-wrap: wrap;
+}
+
+.head{
+  width: 100%;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+  height: 60%;
+}
+  
+.card{
+  display: flex;
+  min-width: 300px;
+  flex-direction: column;
+  background: rgba(101, 109, 109, 0.582);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  overflow: hidden;
+  padding: 1%;
+  width: 30%;
+}
+
+.card-img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px;
+ box-shadow: 0 8px 32px 0 rgba(38, 241, 116, 0.705);
+}
+
+.card-details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+}
+.image__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+  
+  .card:hover .image__overlay {
+    opacity: 0.8;
+  }
+
+button{
+  background: #009e66;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 40% 50%;
+  transition: all 0.5s ease;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+
+button:hover {
+background-color: rgb(104, 95, 95);
+}
+
+h1{
+  color: white;
+}
+
+
+/* TESTIMONIAL */
+#slider {
+    margin-top: 10%;
+  }
+  
+#testimonial {
+    background: black  
+
+}
+
+.testimonial-container {
+    max-width: 100%;
+    
+}
+
+  .img-area {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .content-area {
+    background: rgba(54, 54, 54, 0.87);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-size: medium;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
+  }
+  
+#flogo{
+    
+}
+
+footer{
+    width: 100vw;
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0);
+    justify-content: space-between;
+    padding: 0 5%;
+
+}
+
+  .img-area img {
+    height: 100%;
+    object-fit: fill;
+    width: 50%;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-size: medium;
+  }
+  
+  .content h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .content h4 {
+    font-size: 20px;
+    font-weight: 450;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: rgb(91, 204, 219);
+  }
+  
+  .content p {
+    line-height: 1.9;
+  }
+
+#testimonial {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CONTACT PAGE*/
+.contact-section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    flex-direction: column;
+}  
+
+
+  #contact-form {
+      width: 48%;
+    background: black;
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(58, 58, 58);
+    /* margin-left: 120px; */
+    
+  }
+    
+  h1 {
+    text-transform: uppercase;
+    color: #009e66;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2 {
+      color: #9f9f9f;
+      margin-bottom: 15px;
+      font-family: Arial;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 6px;
+  }
+  
+  .contact-info h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact-label {
+    display: none;
+  }
+  
+  .contact-input, .contact-button {
+    background: rgb(161, 160, 160);
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border: 1px solid rgb(131, 128, 128);
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .contact-button {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #161616;
+    font-size: 19px;
+    border-radius: 50px;
+    background-color: #009e66;
+    box-shadow: none;
+  }
+  
+  
+  button:hover {
+    background-color: rgb(158, 158, 157);
+    color: rgba(255, 0, 0, 0.664);
+  }
+
+  .Contact-info {
+      width: 48%;
+  }
+
+ .list-unstyled {
+     list-style: none;
+    
+ }
+
+ .media {
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     margin-bottom: 15px;
+ }
+
+ .info-details {
+     margin-left: 40px;
+ }
+
+
+ .info-icon {
+     width: 5%;
+     height: 100%;
+     font-size: 40px;
+     color: #009e66;
+ }
+
+ .info-details .info-type {
+    font-size: 25px;
+    color: white;
+}
+
+
+.info-details .info-value {
+    font-size: 20px;
+    color:#9f9f9f;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.content-title {
+    font-size: 50px;
+    color: #009e66;
+}
+
+.info-description {
+    font-size: 25px;
+    padding: 12px;
+    font-weight: bold;
+    color: #9f9f9f;
+    font-weight: 400S;
+}
+
+
+.footer {
+   
+    color: #009e66;
+}
+
+.fab{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #009e66;
+}
+
+.ft {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+/* KEYFRAMES ANIMATION */
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 42ch;
+    }
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}

@@ -1,0 +1,147 @@
+@media only screen and (max-width: 1199px) {
+    /* LANDING SECTION */
+    .landing .container .home-page-name {
+        font-size: 30px;
+    }
+
+    /* ABOUT SECTION */
+    .section-heading {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .section-heading .About-img{
+        height: 350px;
+        margin: 0 auto 20px auto;
+        object-fit: cover;
+    }
+
+    .section-heading .About-page-head{
+        font-size: 20px;
+    }
+
+    .section-heading .who-am-I-sub-head{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .section-heading .who-am-I-content{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .section-heading .skills .icon-container {
+        padding-right: 10px;
+    }
+    
+    .section-heading .skills .icon-container i {
+        font-size: 15px;
+    }
+    
+
+    /* RESUME SECTION */
+    .edu-heading {
+        font-size: 19px;
+        margin-bottom: 15px;
+        color: white;
+    }
+    .edu-content {
+        font-size: 15px;
+        color: white;
+
+    }
+    #resume .space {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .experience-cards {
+        width: 100%;
+    }
+
+    .experience-card {
+        width: 100%;
+    }
+
+    .experience-card h2{
+        font-size: 20px;
+    }
+
+    .experience-card h3{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .experience-card p{
+        font-size: 15px;
+    }
+
+    /* PORTFOLIO SECTION */
+    #portfolio h1 {
+        margin: 0;
+        font-size: 20px;
+    }
+    .portfolio h6 {
+        font-size: 20px;
+    }
+
+    #portfolio .container{
+        padding: 5%;
+    }
+
+    /* TESTIMONIALS */
+
+    #testimonials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* CONTACT SECTION */
+    .contact-section {
+        justify-content: flex-start;
+        padding: 5%;
+    }
+
+    #contact-form {
+        width: 100%;
+    }
+
+    #contact-form h2 {
+        display: none;
+    }
+    .contact-sub-head {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .Contact-info {
+        width: 100%;
+    }
+
+    .info-description {
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .info-details .info-type {
+        margin: 0;
+        font-size: 20px;
+    }
+    .media{
+        margin-bottom: 15px;
+    }
+
+    .content-title  {
+        font-size: 30px;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    /* CONTACT SECTION */
+    .contact-section {
+        flex-direction: row;
+    }
+}
