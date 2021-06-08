@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
     /* LANDING SECTION */
     .landing .container .home-page-name {
         font-size: 30px;
@@ -139,9 +139,21 @@
     
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     /* CONTACT SECTION */
     .contact-section {
         flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #fullpage {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
     }
 }
