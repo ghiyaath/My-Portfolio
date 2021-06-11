@@ -35,7 +35,13 @@
     }
     
     .section-heading .skills .icon-container i {
-        font-size: 15px;
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .skills ul {
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
 
@@ -135,6 +141,11 @@
 
     .content-title  {
         font-size: 30px;
+    }
+
+    footer {
+        text-align: center;
+        flex-direction: column;
     }
     
 }
