@@ -190,9 +190,6 @@ body {
     font-size: 55px;
 }
 
-.skills li h3 {
-
-}
 
 /* RESUME SECTION */
 .resume-section{
@@ -235,44 +232,10 @@ body {
     /* margin-bottom: 15px; */
     backdrop-filter: blur( 11.5px );
     -webkit-backdrop-filter: blur( 11.5px );
-    /* border-radius: 10px; */
-    /* border-bottom: aqua; */
     border-width: 10px;
     border-left: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
-    /* border: 1px solid rgba( 255, 255, 255, .5 ); */
-    /* border-bottom: aliceblue; */
 }
-
-
-
-/* 
-.bar {
-    background: #353b48;
-    display: block;
-    height: 2px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 3px;
-    overflow: hidden;
-    box-shadow: 0 0 10px #0084ffb3;
-}
-.bar span {
-    height: 2px;
-    float: left;
-    background: #0084ffb3;
-}
-.html {
-    width: 90%;
-    animation: html 2s;
-}
-.css{
-    width: 65%;
-    animation: css 2s;
-}
-.javascript {
-    width: 45%;
-    animation: javascript 2s;
-} */
 
 
 /* PORTFOLIO */
@@ -427,7 +390,6 @@ h1{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 40vh;
 }
 
 .testimonial-container {
@@ -435,21 +397,20 @@ h1{
 }
 
 .img-area {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
 }
   
 .content-area {
-    background: rgba(54, 54, 54, 0.87);
+    background-color: #161616;
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-size: medium;
-    max-width: 400px;
+    max-width: 700px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
+    margin: auto;
 }
 
 .content-area {
@@ -465,11 +426,14 @@ footer {
     padding: 20px;
 }
 
-.img-area img {
-  height: 100%;
-  object-fit: fill;
-  width: 50%;
+.owl-carousel .owl-item .img-area img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 50%;
 }
+
   
 .content {
   text-align: center;
@@ -478,7 +442,19 @@ footer {
   border-radius: 25px;
   font-size: medium;
 }
-  
+
+.content-heading {
+    text-align: left;
+}
+
+.content-text {
+    text-align: left;
+}
+
+
+.content-text q {
+    font-size: 20px;
+}
 .content h2 {
   font-size: 25px;
   font-weight: 700;
@@ -535,7 +511,27 @@ footer {
       margin-bottom: 15px;
       font-family: Arial;
   }
-  
+
+  .icon-container {
+      transition: all .5s;
+}
+
+  .icon-container:hover {
+      transform: scale(1.2);
+  }
+
+  .experience-cards{
+      margin: auto;
+  }
+
+  .experience-card{
+    margin: 20px 0;
+}
+
+.card {
+    margin-bottom: 50px;
+}
+
   .contact-info {
     display: flex;
     flex-direction: column;
@@ -654,6 +650,103 @@ footer {
 }
 
 
+/* nav */
+.nav-container {
+	top: 0;
+	width: 15%;
+	right: -100%;
+	display: grid;
+	position: fixed;
+	cursor: pointer;
+	min-width: 400px;
+	min-height: 100vh;
+	background: #009e66;
+	place-content: center;
+    z-index: 9000000;
+	transition: all .5s ease-in-out;
+}
+
+.nav-container.active {
+	right: 0;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item {
+	margin-bottom: 50px;
+}
+
+.nav-item a {
+	padding: 15px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 600;
+	position: relative;
+	letter-spacing: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: color .5s ease-in-out;
+	color: #ecf0f1;
+}
+
+.nav-item a::before {
+	bottom: 0;
+	left: -20px;
+	content: '';
+	width: 40px;
+	height: 10%;
+	position: absolute;
+	background: #ecf0f1;
+	transition: width .5s ease-in-out;
+}
+
+.menu-btn-container {
+	top: 50px;
+	right: 50px;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	position: fixed;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.menu-btn {
+	width: 30px;
+	height: 3px;
+	position: relative;
+	background: #ffffff;
+	transition: all 1s ease-in-out;
+}
+
+.menu-btn::before {
+	right: 0;
+	top: -15px;
+	width: 50px;
+	height: 3px;
+	content: '';
+	position: absolute;
+	background: #ffffff;
+	transition: all 2s ease-in-out;
+}
+
+.menu-btn::after {
+	right: 0;
+	width: 40px;
+	height: 3px;
+	content: '';
+	bottom: -15px;
+	position: absolute;
+	background: #ffffff;
+	transition: all 2s ease-in-out;
+}
+
+.menu-btn-container.active .menu-btn {
+	background: #ecf0f1;
+	background: transparent;
+}
 /* KEYFRAMES ANIMATION */
 @keyframes type {
     0% {

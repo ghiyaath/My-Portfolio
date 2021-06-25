@@ -35,7 +35,7 @@
     <!-- FULL PAGE -->
     <div id="fullpage">
       <!-- NAVBAR -->
-      <nav id="navbar">
+      <!-- <nav id="navbar">
         <ul>
           <li><button class="navbar-buttons"><a href="#about">About</a></button></li>
           <li><button class="navbar-buttons"><a href="#resume">Resume</a></button></li>
@@ -43,17 +43,43 @@
           <li><button class="navbar-buttons"><a href="#testimonial">Testimonials</a></button></li>
           <li><button class="navbar-buttons"><a href="#contact">Contact</a></button></li>
         </ul>
+      </nav> -->
+      <nav class="nav-container">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonial">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">Contact-Page</a>
+          </li>
+        </ul>	
+        
+        <div class="menu-btn-container">
+          <div class="menu-btn"></div>
+        </div>
       </nav>
       <!-- LANDING PAGE & ABOUT -->
       <div class="section">
-        <section id="about" class="landing area">
+        <section id="Home" class="landing area">
           <div class="container">
             <h1 class="home-page-name">I am Ghiyaath Williams <br>And I am a aspiring Web Developer</h1>
           </div>
         </section>
       </div>
       <div class="section">
-        <section  class="about-section">
+        <section id="about" class="about-section">
           <div class="text">
             <h3 class="section-h1">Get To Know Me</h3>
             <h2 class="section-sub">About Me</h2>  
@@ -145,15 +171,15 @@
                   </div>
                   <div class="skills">
                     <ul>
-                      <li>
+                      <li class="icon-container">
                         <i class="fas fa-car"></i>
                         <h3>Cars</h3>
                       </li>
-                      <li>
+                      <li class="icon-container">
                         <i class="fas fa-route"></i>
                         <h3>Travelling</h3>
                       </li>
-                      <li>
+                      <li class="icon-container">
                         <i class="fas fa-hiking"></i>
                         <h3>Hiking</h3>
                       </li>
@@ -251,56 +277,91 @@
         <section id="testimonial">
           <div class="testimonial-container">
            <div class="owl-carousel">
+        <!--FIRST TESTIMONIAL CARD-->
             <div class="content-area">
               <div class="content">
-                <div class="img-area"><img src="./images/Aneeqah Jones (2).JPG" alt="Aneeqah" /></div>
-                <h2>Aneeqah Jones</h2>
-                <h4>Student</h4>
+                <div class="img-area">
+                  <img src="./images/Aneeqah Jones (2).JPG" alt="Aneeqah" />
+                  <div class="content-heading">
+                    <h2>Aneeqah Jones</h2>
+                    <h4>Student</h4>
+                  </div>
+                </div>
+                <div class="content-text">
                 <q>
-                  Ghiyaath is one of the reasons I come to class everyday, he has the personality that just lights up the room. He is a smart individual and i'm grateful to be seated next to him. He has the potential to become a great software developer. 
+                  <span>Ghiyaath</span> is one of the reasons I come to class everyday, he has the personality that just lights up the room. He is a smart individual and i'm grateful to be seated next to him. He has the potential to become a great software developer. 
                 </q>
+                </div>
               </div>
             </div>
+         <!--SECOND TESTIMONIAL CARD-->
             <div class="content-area">
               <div class="content">
-                <div class="img-area"><img src="./images/Zoe Erispe (2).JPG" alt="Zoe" /></div>
+                <div class="img-area">
+                  <img src="./images/Zoe Erispe (2).JPG" alt="Zoe" />
+                  <div class="content-heading">
                 <h2>Zoe Eripse</h2>
                 <h4>Student</h4>
+                  </div>
+                </div>
+                <div class="content-text">
                 <q>
                   Ghiyaath works willingly in a team and tolerant of others, irrespective of their strengths and weaknesses. 
                 </q>
+                </div>
               </div>
             </div>
+         <!--THIRD TESTIMONIAL CARD-->
             <div class="content-area">
               <div class="content">
-                <div class="img-area"><img src="./images/Life-Choices-Academy-About-Us-Team-Member-Thapelo.jpg" alt="Thapelo" /></div>
+                <div class="img-area">
+                  <img src="./images/Life-Choices-Academy-About-Us-Team-Member-Thapelo.jpg" alt="Thapelo" />
+                <div class="content-heading"> 
                 <h2>Thapelo Tsotetsi</h2>
                 <h4>Lecturer</h4>
+                </div>
+              </div>
+              <div class="content-text">
                 <q>
-                  Ghiyaath is an amazing student. He’s ability to learn new technologies is noteworthy. 
+                  <span>Ghiyaath</span> is an amazing student. He’s ability to learn new technologies is noteworthy. 
                   He has great intellectual skills and he works very well within a team. 
                   He has great problem solving skills and always knows when to ask questions especially when the user requirements are not clear. 
                 </q>
+                </div>
               </div>
             </div>
+          <!--FOURTH TESTIMONIAL CARD-->
             <div class="content-area">
               <div class="content">
-                <div class="img-area img"><img src="./images/2021-team-jason-wandrag.jpg" alt="Jason" /></div>
+                <div class="img-area img">
+                  <img src="./images/2021-team-jason-wandrag.jpg" alt="Jason" />
+                  <div class="content-heading">  
                 <h2>Jason Wandrag</h2>
                 <h4>Lecturer</h4>
+                 </div>
+              </div>
+              <div class="content-text">
                 <q>
                   Ghiyaath is an exceptional developer with great skill.
                 </q>
+               </div>
               </div>
             </div>
+          <!--FIFTH TESTIMONIAL CARD-->
             <div class="content-area">
               <div class="content">
-                <div class="img-area"><img src="./images/Naeemah Davis (2).JPG" alt="Naeemah" /></div>
+                <div class="img-area">
+                  <img src="./images/Naeemah Davis (2).JPG" alt="Naeemah" />
+                  <div class="content-heading">
                 <h2>Naeemah Davis</h2>
                 <h4>Student</h4>
+               </div>
+              </div>
+              <div class="content-text">
                 <q>
                   Ghiyaath is an enthusiastic person. Intuitive as well as hard-working. Kind and dedicated, great soccer player and programmer. He is willing to help others as best he can. I believe he will be an asset in any environment .
                 </q>
+               </div>
               </div>
             </div>
           </div>
@@ -477,11 +538,11 @@
       crossorigin="anonymous"
     ></script>
 
-    <script>
+    <script
       src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
       integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 
     <!-- My Javascript File -->
@@ -500,5 +561,6 @@
         });
       });
     </script>
+    <script src="./scripts.js"></script>
   </body>
 </html>
